@@ -1,0 +1,16 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/inicio", "destination": "/index.html" },
+    { "source": "/staff", "destination": "/Staff/staff.html" },
+    { "source": "/bot", "destination": "/Bot/bot.html" },
+    { "source": "/documentacion", "destination": "/Documentaciones/docs.html" },
+    { "source": "/recursos", "destination": "/Recursos/recursos.html" }
+  ],
+  "redirects": [
+    { "source": "/Staff/staff.html", "destination": "/staff", "permanent": true },
+    { "source": "/Bot/bot.html", "destination": "/bot", "permanent": true },
+    { "source": "/Documentaciones/docs.html", "destination": "/documentacion", "permanent": true },
+    { "source": "/Recursos/recursos.html", "destination": "/recursos", "permanent": true }
+  ]
+}
